@@ -1,0 +1,63 @@
+html, body
+{
+  height: 100%;  /**ocupa 100% da area visivel do navegador*/
+  margin: 0;
+  font-family: sans-serif;
+  color: #1d0202;
+}
+
+.parallax1{
+  position: relative; /*define funcionamento relativo*/
+  background-image: url("../img/1009.png");  /*coloca imagem de fundo*/
+  height: 100%; /*ocupa toda a div parallax1*/
+  opacity: 0.5; /*deixa a imagem mais opaca*/
+  background-attachment: fixed;/*deixa a imagem fixa */
+  background-position: center; /*centraliza a imagem*/
+  background-repeat: no-repeat; /*não repete a imagem caso ela seja menor que a tela*/
+  background-size: cover; /*ajusta a proporção da imagem na tela*/
+}
+
+.caption{
+  position: absolute; /*define op posicionamento d div*/
+  left: 0; /*gruda o quadro no canto esquerdo*/
+  top: 50%; /*coloca o quadro com o texto no centro da div*/
+  width: 100%;
+  text-align: center; /*define o texto ao centro*/
+}
+
+.caption span.border{
+  background-color: purple; /*define a cor de fundo do texto*/
+  color: plum; /*define a cor do texto*/
+  padding: 20px; /*define o espaçamento entre a caixa de texto*/
+  font-size: 25px; /*aumenta o tamanho da fonte*/
+  letter-spacing: 10px; /*aumenta o espaçamento entre as letras*/
+}
+
+.parallax2{
+  position: relative;
+  background-image: url("../img/OIP.webp");
+  height: 100%;
+  opacity: 0.5;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box1{
+  background-color: white;
+  text-align: justify; /*as bordas das linhas de texto ficam paralelas*/
+  padding: 50px 80px; 
+}
+
+.box1 h3{
+  text-align: center;
+}
+
+.box2{
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 50px 80px;
+}
